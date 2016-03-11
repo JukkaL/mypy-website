@@ -1,0 +1,76 @@
+$title mypy - Development Roadmap$
+$keywords mypy, roadmap, mypy development$
+$description Development roadmap for mypy.$
+
+<div id="wide">
+<h1 class="first">Mypy Development Roadmap</h1>
+
+<p>This is the outline of the current mypy development roadmap. As everything
+else, this is subject to change at any time.
+
+
+<h2>Milestone 1: Type checker and mypy-to-Python translator [DONE]</h2>
+
+<p>Implement type checker for a significant subset of mypy. Support running
+mypy programs via translation to Python + using CPython (perhaps also PyPy,
+if Python 2/3 compatibility can be addressed).
+
+<p>The implementation will be good for early adopters and for the evaluation of
+the programming model.
+
+<p>Schedule: Nov 2012 [DONE]
+
+<h2>Milestone 2: Switch to Python-compatible syntax [DONE]</h2>
+
+<p>Based on feedback, switch to a new, Python-compatible
+syntax. Also change the development focus to optional type checking on top of
+a standard Python implementation instead of on building a new compiler and
+VM.
+
+<p>Schedule: Jul 2013 [DONE]
+
+<h2>Milestone 3: More Python and type system features [DONE]</h2>
+
+<p>The focus is on supporting a wider set of Python features and
+libraries, and on implementing new type system features.
+
+<p>The goal is to support (almost) all of Python 3 syntax and
+a large set of libraries. Also, mypy now mostly conforms to
+PEP 484.
+
+<p>Schedule: 2015 [DONE]
+
+<h2>Milestone 4: Python 2.x support [DONE]</h2>
+
+<p>Add support for Python 2.7 and potentially earlier Python versions. These
+are still very widely used and will likely remain so for at least several
+years.
+
+<p>Schedule: 2015 [DONE]
+
+<h2>Milestone 5: Faster, incremental type checking</h2>
+
+<p>Support more efficient, incremental type checking. After a code edit, mypy
+should only check modules affected by that change instead of the whole program.
+This will be useful especially for large projects.
+
+<p>Schedule: 2016
+
+<h2>Milestone 6: Beta release</h2>
+
+<p>After this release, work harder to avoid changes that break backward
+compatibility in significant ways. Most critical open issues resolved.
+
+<p>Schedule: 2016?
+
+<h2>Future tasks</h2>
+
+<p>These tasks have not been scheduled yet (in no particular order):
+
+<ul>
+  <li>1.0 release
+  <li>tool support for migration from dynamic to static typing
+  <li>even faster type checking
+</ul>
+
+</div>

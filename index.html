@@ -1,0 +1,106 @@
+$title mypy - Optional Static Typing for Python$
+$keywords mypy, mypy language, python static typing, python, python optional styping, optional typing, python type checker$
+$description Mypy is an optional static type checker for Python.$
+
+  <div id="rightbar">
+    <div id="fork" class="rightbox">
+      <a href="https://github.com/JukkaL/mypy">Get the Code on GitHub!</a>
+    </div>
+    <div id="twitter" class="rightbox">
+      <b>Mypy on Twitter is @mypyproject</b>
+      <p><a href="https://twitter.com/mypyproject">Follow @mypyproject on
+      Twitter</a>
+    </div>
+    <div id="why" class="rightbox">
+      <div class="title">Why mypy?</div>
+      <dl>
+        <dt><b>Compile-time type checking</b>
+        <dd>Static typing makes it easier to find bugs
+          with less debugging.
+        <dt><b>Easier maintenance</b>
+        <dd>Type declarations act as
+           machine-checked documentation.
+           Static typing makes your code easier to understand and easier to modify
+           without introducing bugs.
+        <dt><b>Grow your programs from dynamic to static</b>
+          typing
+        <dd>You can develop programs with dynamic typing and add
+          static typing after your code has matured, or migrate existing
+          Python code to static typing.
+      </dl>
+    </div>
+  </div>
+
+    <h1 id="mypy-heading">mypy</h1>
+
+    <div id="desc">
+    Mypy is an experimental optional static type checker for Python that aims
+    to combine the benefits of dynamic (or "duck") typing and static typing.
+    Mypy combines the expressive power and
+    convenience of Python with a powerful type system and compile-time type checking.
+    Mypy type checks standard Python programs; run them using any Python VM
+    with basically no runtime overhead.
+    </div>
+
+    <p>Mypy is still in development. Most Python features are supported.
+
+    <h1>What's new</h1>
+
+    $latestnews$
+
+    <p><a href="news.html">Older news</a>
+
+    <h1>Seamless dynamic and static typing</h1>
+
+    <div class="front-sample">
+    <div class="sample-header">From Python...</div>
+    $code!
+||def fib(n)||:
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a+b
+!
+    </div>
+    <div class="front-sample">
+    <div class="sample-header">...to statically typed Python</div>
+    $code!
+||def fib(n: int) -> Iterator[int]||:
+    a, b = 0, 1
+    while a < n:
+        yield a
+        a, b = b, a+b
+!
+    </div>
+    <div class="clear-left"></div>
+
+    <p>Migrate existing code to static typing, a function at a time.
+      You can freely mix static and dynamic typing within a program, within
+      a module or within an expression. No need to
+      give up dynamic typing &#8212; use static typing
+      when it makes sense.
+    Often just adding function signatures gives you statically typed code.
+    Mypy can infer the types of other
+    variables.
+
+    <h1>Python syntax</h1>
+
+    <p>Mypy type checks programs that have type annotations conforming to
+    <a href="https://www.python.org/dev/peps/pep-0484/">PEP 484</a>.
+    Getting started is easy if you know Python.
+    The aim is to support almost all Python language constructs in mypy.
+
+    <h1>Powerful type system</h1>
+
+    <p>Mypy has a powerful, modern type system with features such as bidirectional type inference,
+    generics, callable types, abstract base classes, multiple inheritance and tuple types.
+
+    <h1>Access to Python libs</h1>
+
+    <p>Many commonly used libraries have stubs (statically typed interface
+    definitions) that allow mypy to check that your code uses the
+    libraries correctly.
+
+    <div id="learn-more">
+      $include(learn.html)$
+    </div>

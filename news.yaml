@@ -1,0 +1,134 @@
+items:
+ - title: Mypy 0.3 released
+   date: 19 Feb 2016
+   text: |
+         Mypy 0.3 was released. It's focused on Python 2 support and better PEP 484
+         compatibility, but it's much improved in general. Read the
+         <a href="http://mypy-lang.blogspot.fi/2016/02/mypy-03-released.html">blog post</a>
+         to see what's changed. Note that the mypy GitHub repo was moved to
+         a new URL
+         (<a href="https://github.com/python/mypy">https://github.com/python/mypy</a>).
+   author: Jukka
+ - title: Mypy 0.2 released
+   date: 5 Apr 2015
+   text: |
+         Mypy 0.2 was released. It's focused on PEP 484 (Type Hinting) draft compatibility and
+         more complete Python feature support.
+         <a href="http://mypy-lang.blogspot.co.uk/2015/04/mypy-02-released.html">Blog post</a>
+   author: Jukka
+ - title: Mypy and the PEP 484 (type hinting) draft
+   date: 17 Jan 2015
+   text: |
+         Read my <a href="http://mypy-lang.blogspot.com/2015/01/mypy-and-pep-484-type-hinting-draft.html">blog post</a>
+         about <a href="https://www.python.org/dev/peps/pep-0484/">PEP 484</a> (Type Hinting)
+         draft, which proposes adding a standard
+         type annotation syntax strongly inspired by mypy to the upcoming Python 3.5 release.
+   author: Jukka
+ - title: Revamped documentation
+   date: 23 Nov 2014
+   text: |
+         We've been converting mypy documentation to reStructuredText/Sphinx and
+         improving it in the process
+         (thanks to Ryan Gonzalez for the bulk of the work!). The new docs are
+         now public and hosted on <a href="http://mypy.readthedocs.org/en/latest/">readthedocs.org</a>.
+         The source code is available <a href="https://github.com/JukkaL/mypy/tree/master/docs/source">on GitHub</a>.
+   author: Jukka
+ - title: Mypy only type checks, it does not run programs
+   date: 31 Aug 2014
+   text: |
+         Mypy no longer runs your programs, it just type checks
+         them. Use a Python interpreter to run programs.
+   author: Jukka
+ - title: Moving forward again
+   date: 24 Jul 2014
+   text: |
+         Mypy development is seeing progress, after a pause.
+         Stay tuned for exciting news! And we're still looking for new contributors.
+         Also updated the web site to reflect the current development focus: static type
+         checking.
+   author: Jukka
+ - title: Mypy switches to Python-compatible syntax
+   date: 2 Jul 2013
+   text: |
+         Mypy now has a Python-compatible syntax! The
+         implementation is already self-hosting. Have a look at the
+         rewritten <a href="tutorial.html">Mypy Tutorial</a> (formerly Mypy
+         Overview), <a href="https://github.com/JukkaL/mypy/blob/master/README.md">README</a>
+         and the <a href="https://github.com/JukkaL/mypy">code</a>. Also
+         updated the <a href="roadmap.html">roadmap</a>. See the <a href="http://mypy-lang.blogspot.co.uk/2013/07/mypy-switches-to-python-compatible.html">related blog post</a>.
+   author: Jukka
+ - title: "PyCon Update: Python-compatible syntax for mypy?"
+   date: 15 Apr 2013
+   text: |
+         I wrote a <a href="http://mypy-lang.blogspot.co.uk/2013/04/pycon-update-python-compatible-syntax.html">blog post</a> about
+         my PyCon visit and a new, Python-compatible syntax idea.
+         The short summary is that mypy may get a 100% Python-compatible syntax
+         in the future! Also Python 2.x support, structural subtyping and real
+         multiple inheritance are being planned.
+   author: Jukka
+ - title: Mypy at PyCon US 2013 (Santa Clara, CA)
+   date: 13 Mar 2012
+   text: |
+         I will present a poster about mypy at
+         <a href="https://us.pycon.org/2013/">PyCon US</a> this weekend. If you
+         are coming to PyCon, you are welcome to come for a chat.
+   author: Jukka
+ - title: Mypy Development Update #2
+   date: 13 Mar 2012
+   text: |
+         A lot has happened in the mypy project in the last
+         few months.
+         I've written a
+         <a href="http://mypy-lang.blogspot.co.uk/2013/03/mypy-development-update-2.html">blog post</a>
+         about the most interesting recent developments.
+   author: Jukka
+ - title: Wiki opened
+   date: 14 Dec 2012
+   text: |
+         The <a href="http://www.mypy-lang.org/wiki">mypy wiki</a> is now open. It
+         contains useful information for both users and mypy developers, and it is
+         editable by all.
+         <a href="http://mypy-lang.blogspot.co.uk/2012/12/mypy-wiki-opened.html">Related
+         blog post</a>
+   author: Jukka
+ - title: Source code released
+   date: 7 Dec 2012
+   text: |
+         Mypy source code is
+         <a href="https://github.com/JukkaL/mypy">now available</a> on GitHub.
+         Fork it and give it a try!
+         The current prototype supports a useful but somewhat limited subset of
+         Python
+         features (library support is still limited) and
+         lets you type check programs and run them by translating to Python.
+         As such there is no performance boost yet.
+   author: Jukka
+ - title: Mypy has a blog and a newsletter, and is on Twitter
+   date: 4 Dec 2012
+   text: |
+         I set up a
+         <a href="http://mypy-lang.blogspot.co.uk/">mypy status blog</a>. From now on,
+         all important mypy updates will be posted there. There's also
+         an <a href="http://mypy-lang.blogspot.com/feeds/posts/default">Atom feed</a>
+         (it has been requested by several people). You can follow mypy development
+         on Twitter (<a href="https://twitter.com/mypyproject">@mypyproject</a>).
+         Finally, you can also subscribe to an
+         <a href="https://groups.google.com/d/forum/mypy-news?hl=en-GB">email
+         newsletter</a> hosted at Google Groups.
+   author: Jukka
+ - title: Mypy is self-hosting + language changes
+   date: 2 Dec 2012
+   text: |
+         The mypy implementation has been self-hosting for about two weeks now (on
+         top of CPython)! We are happily eating our own dog food.
+         The source release is Real Soon Now. The release is a bit late as we
+         decided to make some changes and add new features just before the release.
+   author: Jukka
+ - title: Mypy at PyCon Finland
+   date: 25 Oct 2012
+   text: |
+         I gave a talk on mypy at
+         <a href="http://fi.pycon.org/2012">PyCon Finland</a>.
+         <a href="http://www.mypy-lang.org/jukka/mypy-pycon-fi-2012.pdf">Slides</a>
+         are available.
+   author: Jukka

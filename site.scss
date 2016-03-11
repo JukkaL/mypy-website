@@ -1,0 +1,474 @@
+/* Geometry */
+
+$width: 1000px;
+$left-width: 600px;
+$left-padding: 50px;
+$right-padding: 40px;
+$sample-padding: 20px;
+$why-width: 290px;
+
+/* Colors */
+
+$page-background: #fff;
+$shadow: #888;
+$top-background: #ffffff;
+
+$base: #1F5082;
+
+$navi-background: $base;
+$navi-bottom-border: darken($navi-background, 25);
+$navi-text: #eee;
+
+$base-alt: #E4D97C;
+
+$pane-background: lighten($base-alt, 15);
+$pane-border: $base-alt;
+
+$example-color: #3c3c3c;
+$example-background: #eeeeee;
+
+/* Layout */
+
+html, body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 95%;
+}
+
+body {
+    background-color: $page-background;
+    padding: 0;
+    margin: 0;
+}
+
+#navi {
+    width: 100%;
+    min-width: $width + 50px;
+    float: left;
+    clear: left;
+    background-color: $navi-background;
+    border-bottom: 1px $navi-bottom-border solid;
+}
+
+@mixin margins {
+    width: $width;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#bar {
+    @include margins;
+}
+
+#navi .link {
+    float: left;
+    padding: 0;
+    padding-right: 0.8em;
+    margin: 0;
+}
+
+@mixin baritem {
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $navi-text;
+}
+
+#navi .link a {
+    @include baritem;
+    display: block;
+    font-weight: bold;
+    padding-left: 0.45em;
+    padding-right: 0.45em;
+}
+
+#navi .follow {
+    float: right;
+    padding: 0;
+    padding-right: 0.8em;
+    margin: 0;
+}
+
+#navi .follow .head {
+    @include baritem;
+    display: block;
+    color: darken($navi-text, 20);
+}
+
+#navi .follow a {
+    @include baritem;
+    display: block;
+    color: darken($navi-text, 5);
+}
+
+#navi .link a:hover {
+    text-decoration: underline;
+}
+
+#navi .follow a:hover {
+    text-decoration: underline;
+}
+
+#top {
+    @include margins;
+    clear: both;
+}
+
+#rightbar {
+    float: right;
+    width: $why-width;
+    margin-top: 10em;
+    margin-left: 3em;
+    margin-bottom: 2em;
+}
+
+.rightbox {
+    border: 1px $pane-border solid;
+    background-color: $pane-background;
+    padding: 1em;
+    margin-bottom: 1.5em;
+}
+
+#fork {
+    text-align: center;
+}
+
+#fork a {
+    color: darken($base-alt, 50);
+    font-size: 170%;
+}
+
+#twitter {
+    text-align: center;
+}
+
+#twitter a {
+    color: darken($base-alt, 50);
+    font-size: 120%;
+}
+
+#why .title {
+    margin-top: 0;
+}
+
+#why .title, #learn-more .title {
+    color: darken($base-alt, 50);
+    font-size: 170%;
+}
+
+#why dt {
+    padding-left: 0em;
+    margin-left: 0;
+}
+
+#why dd {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+h1#mypy-heading {
+    font-size: 400%;
+    color: $base;
+    padding-top: 0.6em;
+    padding-bottom: 0.7em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.front-sample {
+    float: left;
+    margin-right: 2em;
+}
+
+.sample-header {
+    font-weight: bold;
+}
+
+#features {
+    @include margins;
+}
+
+#learn-more {
+    margin-top: 2em;
+    margin-left: -1em;
+    margin-right: -1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.8em;
+    border: 1px $pane-border solid;
+    background-color: $pane-background;
+}
+
+#learn-more .title {
+    margin-top: .5em;
+}
+
+#footer {
+    float: right;
+    width: 100%;
+    color: #606060;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center;
+    font-size: 90%;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear-left {
+    clear: left;
+}
+
+/* Formatting */
+
+h1, h2, h3 {
+    font-weight: normal;
+    font-family: "Bitstream Vera Sans", sans-serif;
+    /*font-family: Georgia, "Bitstream Vera Serif", Palatino, serif;*/
+    /*border-bottom: 1px #888 dotted;*/
+}
+
+h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 170%;
+    font-weight: normal;
+    color: lighten($base, 2);
+}
+
+h1.first {
+    font-size: 300%;
+    padding-top: 0.9em;
+    margin-bottom: 0.8em;
+}
+
+h2 {
+    font-size: 145%;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+    color: #0E2768;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+a:link {
+    color: #0000c0;
+}
+
+a:visited {
+    color: #602070;
+}
+
+a:hover {
+    color: #5050c0;
+}
+
+.features li {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+p.features {
+    margin-left: 2em;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+}
+
+dd {
+    margin-left: 1em;
+}
+
+.small {
+    font-size: 80%;
+}
+
+ul li {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+li .list-title {
+    font-weight: bold;
+}
+
+.char {
+    vertical-align: baseline;
+}
+
+.adr {
+    white-space: nowrap;
+}
+
+.hid {
+    display: none;
+}
+
+.note {
+    border: 1px solid #777;
+    font-style: italic;
+    padding: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/* Page-specific styles */
+
+#news dt {
+    font-weight: bold;
+    font-size: 105%;
+    padding-top: 0.5em;
+}
+
+#news dd {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+#news dd .news-info {
+    color: #777777;
+    margin-top: 8px;
+    font-size: 90%;
+}
+
+#right ul {
+    padding-left: 2em;
+}
+
+.question {
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#footer a, #footer a:visited {
+    text-decoration: none;
+    color: #358;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+.float-sample {
+    float: left;
+    width: $width / 2 - $left-padding - $sample-padding;
+}
+
+.float-sample-r {
+    float: right;
+    width: $width / 2 - $left-padding - $sample-padding;
+}
+
+.float-sample pre.ex {
+    margin-top: 0;
+}
+
+.float-sample-r pre.ex {
+    margin-top: 0;
+}
+
+.sample-head {
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.sample-legend {
+    position: relative;
+    top: 2.5em;
+}
+
+.ex-left {
+    float: left;
+    width: 48%;
+    font-size: 95%;
+}
+
+.ex-right {
+    float: right;
+    width: 48%;
+    font-size: 95%;
+}
+
+p.dev-status {
+    font-style: italic;
+}
+
+/* Syntax highlighting */
+
+pre {
+  font-family: 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', 'Monaco',
+               Courier, monospace !important;
+  font-style: normal;
+}
+
+pre.ex {
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+    color: $example-color;
+    padding: 0.9em;
+    background-color: $example-background;
+    border: 1px solid #dddddd;
+    font-size: 95%;
+}
+
+.note pre.ex:last-child {
+    margin-bottom: 0.5em;
+}
+
+.kw {
+    color: #5c5ca0;
+}
+
+.pr {
+    color: #5c5ca0;
+}
+
+.co span.pr {
+    color: #32923c;
+}
+
+.co span.kw {
+    color: #32923c;
+}
+
+.st {
+    color: #771818;
+}
+
+.co {
+    color: #32923c;
+    font-style: italic;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+.hili {
+    background-color: darken($example-background, 6);
+}
+
+@media screen and (max-device-width: 480px) {
+    .ex-left {
+        width: 90%;
+    }
+
+    .ex-right {
+        width: 90%;
+        float: left;
+    }
+}

@@ -1,0 +1,37 @@
+$title mypy - Examples$
+$keywords mypy example, mypy code$
+$description Mypy example programs, with separate dynamically and statically typed variants.$
+
+<div id="wide">
+<h1 class="first">Mypy Examples</h1>
+
+<p>Here are some mypy example programs. Each example has dynamically typed
+Python/mypy code and equivalent statically typed mypy code side by
+side. Every program is still valid Python 3.x.
+All differences between the variants are
+<span class="hili">highlighted</span>.
+
+<h2>Word frequencies with a dictionary</h2>
+
+$example(wordfreq)$
+
+<p>In this example we add an explicit type declaration for the variable d, as
+it is not obvious from the local context.
+
+<h2>Simple class</h2>
+
+$example(bank)$
+
+<p>In this example we chose to use integers to represent balance.
+This would be fine in a game, for example, but in other applications a
+different type would make more sense.
+
+<p>This example was adapted from the
+<a href="http://wiki.python.org/moin/SimplePrograms">Python wiki</a> (with
+the standard Python license).
+
+<h2>Prime number sieve with generators</h2>
+
+$example(sieve2)$
+
+<p>Like the bank account example, this was adapted from the Python wiki.
