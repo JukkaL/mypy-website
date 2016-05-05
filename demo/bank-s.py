@@ -1,5 +1,3 @@
-||import typing||
-
 class BankAccount:
     def __init__||(self, initial_balance: int = 0) -> None||:
         self.balance = initial_balance
@@ -9,7 +7,7 @@ class BankAccount:
         self.balance -= amount
     def overdrawn||(self) -> bool||:
         return self.balance < 0
-    
+
 my_account = BankAccount(15)
 my_account.withdraw(5)
 print(my_account.balance)
