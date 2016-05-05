@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.4 released
+   date: 5 May 2016
+   text: |
+         Mypy 0.4 was released. It's focused on faster type checking, usability improvements
+         and bug fixes. Read the
+         <a href="http://mypy-lang.blogspot.fi/2016/05/mypy-04-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.3 released
    date: 19 Feb 2016
    text: |
