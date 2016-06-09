@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.4.2 released
+   date: 9 Jun 2016
+   text: |
+         Mypy 0.4.2 was released. This release focuses on bug fixes. It also adds support
+         for Type[C].  Read the
+         <a href="http://mypy-lang.blogspot.fi/2016/06/mypy-042-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.4 released
    date: 5 May 2016
    text: |
