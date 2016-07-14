@@ -1,4 +1,14 @@
 items:
+ - title: Mypy 0.4.3 released
+   date: 14 Jul 2016
+   text: |
+         Mypy 0.4.3 was released. This release adds support
+         for experimental strict checking of optional types (enabled using the
+         <tt>--strict-optional</tt> command line option) and includes many other
+         improvements and fixes. Read the
+         <a href="http://mypy-lang.blogspot.co.uk/2016/07/mypy-043-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.4.2 released
    date: 9 Jun 2016
    text: |
