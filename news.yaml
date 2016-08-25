@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.4.4 released
+   date: 25 Aug 2016
+   text: |
+         Mypy 0.4.4 was released. This release adds support
+         for async/await and NewType and includes many other
+         improvements and fixes. Read the
+         <a href="http://mypy-lang.blogspot.com/2016/08/mypy-044-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.4.3 released
    date: 14 Jul 2016
    text: |
