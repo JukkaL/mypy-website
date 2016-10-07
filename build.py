@@ -202,7 +202,7 @@ def build_news():
 
 def build_latest_news():
     res = []
-    for item in news_items[:2]:
+    for item in news_items[:4]:
         res.append('<p><b>%s</b>\n' % item['title'])
         res.append('<p><b>%s</b>: %s -%s' % (item['date'], item['text'], item['author']))
     return '\n'.join(res)
