@@ -1,4 +1,15 @@
 items:
+ - title: Mypy 0.4.5 released
+   date: 7 Oct 2016
+   text: |
+         Mypy 0.4.5 was released. This release adds support
+         for mypy configuration files and Python 3.6 variable annotations and includes
+         many other improvements and fixes. There is now also a
+         <a href="https://gitter.im/python/mypy">Gitter chat room</a>.
+         Read the
+         <a href="http://mypy-lang.blogspot.com/2016/10/mypy-045-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.4.4 released
    date: 25 Aug 2016
    text: |
