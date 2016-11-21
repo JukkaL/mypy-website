@@ -1,4 +1,15 @@
 items:
+ - title: Mypy 0.4.6 released
+   date: 21 Nov 2016
+   text: |
+         Mypy 0.4.6 was released. This release adds support
+         for generic type aliases, missing return statement detection and
+         self types. It also improves type checking of import cycles and includes
+         many other improvements and fixes.
+         Read the
+         <a href="http://mypy-lang.blogspot.com/2016/11/mypy-046-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.4.5 released
    date: 7 Oct 2016
    text: |
