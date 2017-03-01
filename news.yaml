@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.501 released
+   date: 1 Mar 2017
+   text: |
+         Mypy 0.501 was released. It switches to a new default parser and supports Python
+         3.6 features by default. These are also many other improvements and fixes.
+         Read the
+         <a href="http://mypy-lang.blogspot.com/2017/03/mypy-0501-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.470 released
    date: 13 Jan 2017
    text: |
