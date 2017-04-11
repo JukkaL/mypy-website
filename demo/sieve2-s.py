@@ -1,5 +1,5 @@
 import itertools
-from typing import Iterator
+||from typing import Iterator||
 
 def iter_primes||() -> Iterator[int]||:
      # An iterator of all numbers between 2 and
