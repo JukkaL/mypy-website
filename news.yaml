@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.510 released
+   date: 5 May 2017
+   text: |
+         Mypy 0.510 was released. It adds support for overloads in source files and more
+         flexible callables, but these are just a few of the improvements and fixes.
+         Read the
+         <a href="http://mypy-lang.blogspot.com/2017/05/mypy-0510-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.501 released
    date: 1 Mar 2017
    text: |
