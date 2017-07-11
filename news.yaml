@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.520 released
+   date: 10 July 2017
+   text: |
+         Mypy 0.520 was released. It adds better control for Any types, __setattr__ support, 
+         more flexible NamedTuples, and many more improvements and bug fixes. 
+         Read the
+         <a href="http://mypy-lang.blogspot.co.uk/2017/07/mypy-0520-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.510 released
    date: 5 May 2017
    text: |
