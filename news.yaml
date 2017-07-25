@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.521 released
+   date: 25 July 2017
+   text: |
+         Mypy 0.521 was released. It is a minor bugfix release for 0.520, and everyone using
+         0.520 should upgrade.
+         Read the
+         <a href="http://mypy-lang.blogspot.co.uk/2017/07/mypy-0521-released.html">blog post</a>
+         to see what's changed.
+   author: Jukka
  - title: Mypy 0.520 released
    date: 10 July 2017
    text: |
