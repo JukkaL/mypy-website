@@ -134,7 +134,7 @@ items:
          improving it in the process
          (thanks to Ryan Gonzalez for the bulk of the work!). The new docs are
          now public and hosted on <a href="http://mypy.readthedocs.org/en/latest/">readthedocs.org</a>.
-         The source code is available <a href="https://github.com/JukkaL/mypy/tree/master/docs/source">on GitHub</a>.
+         The source code is available <a href="https://github.com/python/mypy/tree/master/docs/source">on GitHub</a>.
    author: Jukka
  - title: Mypy only type checks, it does not run programs
    date: 31 Aug 2014
@@ -156,8 +156,8 @@ items:
          Mypy now has a Python-compatible syntax! The
          implementation is already self-hosting. Have a look at the
          rewritten <a href="tutorial.html">Mypy Tutorial</a> (formerly Mypy
-         Overview), <a href="https://github.com/JukkaL/mypy/blob/master/README.md">README</a>
-         and the <a href="https://github.com/JukkaL/mypy">code</a>. Also
+         Overview), <a href="https://github.com/python/mypy/blob/master/README.md">README</a>
+         and the <a href="https://github.com/python/mypy">code</a>. Also
          updated the <a href="roadmap.html">roadmap</a>. See the <a href="http://mypy-lang.blogspot.co.uk/2013/07/mypy-switches-to-python-compatible.html">related blog post</a>.
    author: Jukka
  - title: "PyCon Update: Python-compatible syntax for mypy?"
@@ -198,7 +198,7 @@ items:
    date: 7 Dec 2012
    text: |
          Mypy source code is
-         <a href="https://github.com/JukkaL/mypy">now available</a> on GitHub.
+         <a href="https://github.com/python/mypy">now available</a> on GitHub.
          Fork it and give it a try!
          The current prototype supports a useful but somewhat limited subset of
          Python
