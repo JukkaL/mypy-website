@@ -1,4 +1,12 @@
 items:
+ - title: For more mypy news see the mypy blog
+   date: 24 October 2017
+   text: |
+         We're increasing mypy's release frequency to about once per three weeks.
+         We no longer will link here to each separate release blog post; just check the
+         <a href="http://mypy-lang.blogspot.com">mypy blog</a> for news.
+         Two new versions, 0.530 and 0.540, were released since the last news item below.
+   author: Guido van Rossum
  - title: Mypy 0.521 released
    date: 25 July 2017
    text: |
