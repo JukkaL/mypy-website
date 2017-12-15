@@ -1,4 +1,12 @@
 items:
+ - title: Dropbox releases PyAnnotate
+   date: 15 November 2017
+   text: |
+         Dropbox has released an open source tool for automatically generating
+         type annotations based on runtime type collection.  See the
+         <a href="http://mypy-lang.blogspot.com/2017/11/dropbox-releases-pyannotate-auto.html">blog post</a>
+         for details.
+   author: Guido van Rossum
  - title: For more mypy news see the mypy blog
    date: 24 October 2017
    text: |
