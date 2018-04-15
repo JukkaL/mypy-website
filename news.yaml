@@ -7,7 +7,7 @@ items:
          <a href="http://mypy-lang.blogspot.com/2017/11/dropbox-releases-pyannotate-auto.html">blog post</a>
          for details.
    author: Guido van Rossum
- - title: For more mypy news see the mypy blog
+ - title: For more mypy news see the <a href="http://mypy-lang.blogspot.com">mypy blog</a>.
    date: 24 October 2017
    text: |
          We're increasing mypy's release frequency to about once per three weeks.
