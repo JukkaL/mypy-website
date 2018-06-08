@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.610 released
+   date: 8 June 2018
+   text: |
+         Mypy 0.610 was released.  It adds support for <code>dmypy run</code> and a host of other small improvements.
+         Read the
+         <a href="http://mypy-lang.blogspot.com/2018/06/mypy-0610-released.html">blog post</a>
+         to see what's changed.
+         (Note that we're once again starting to link blog posts here.)
+   author: Michael J. Sullivan
  - title: Dropbox releases PyAnnotate
    date: 15 November 2017
    text: |
