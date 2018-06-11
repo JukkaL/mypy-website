@@ -30,6 +30,7 @@ pages = ['index', 'examples', 'tutorial', 'about', 'news', 'faq', 'contact',
          'overview'  # legacy
          ]
 files = ['site.css']
+static_dirs = ['static']
 
 out_dir = 'out'
 
@@ -141,7 +142,11 @@ def main():
     subprocess.check_call(['sass', 'site.scss:site.css'])
 
     for f in files:
-        shutil.copy(f, 'out/')
+        shutil.copy(f, out_dir + '/')
+    for d in static_dirs:
+        dn = out_dir + '/' + d
+        shutil.rmtree(dn)
+        shutil.copytree(d, dn)
 
 
 # Inline JavaScript code should encoded as CDATA for proper XHTML.
