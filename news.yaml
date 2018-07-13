@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.620 released
+   date: 13 July 2018
+   text: |
+         Mypy 0.620 was released.  It adds support for dataclasses, improvements to overloads, better support
+         for PEP 561 and several smaller improvements.  Read the
+         <a href="http://mypy-lang.blogspot.com/2018/07/mypy-0620-released.html">blog post</a>
+         for more details.
+   author: Ivan Levkivskyi
  - title: Mypy 0.610 released
    date: 8 June 2018
    text: |
