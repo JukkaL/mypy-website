@@ -2,7 +2,7 @@ items:
  - title: Mypy 0.630 released
    date: 17 September 2018
    text: |
-         Mypy 0.630 was released.  It adds support for callabck protocols and many smaller improvements,
+         Mypy 0.630 was released.  It adds support for callback protocols and many smaller improvements,
          bug fixes, and documentation updates.  Read the
          <a href="http://mypy-lang.blogspot.com/2018/09/mypy-0630-released.html">blog post</a>
          for more details.
