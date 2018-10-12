@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.640 released
+   date: 12 October 2018
+   text: |
+         Mypy 0.640 was released.  It adds support for "final" qualifiers, and namespace packages.
+         It also has many bug fixes and documentation updates.  Read the
+         <a href="http://mypy-lang.blogspot.com/2018/10/mypy-0640-released.html">blog post</a>
+         for more details.
+   author: Guido van Rossum
  - title: Mypy 0.630 released
    date: 17 September 2018
    text: |
