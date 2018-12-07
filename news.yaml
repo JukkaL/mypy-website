@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 0.650 released
+   date: 7 December 2018
+   text: |
+         Mypy 0.650 was released.  Read the
+         <a href="http://mypy-lang.blogspot.com/2018/12/mypy-0650-released.html">blog post</a>
+         for more details.
+   author: Jukka Lehtosalo
  - title: Mypy 0.641 released
    date: 15 October 2018
    text: |
