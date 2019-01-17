@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 0.660 released
+   date: 16 January 2019
+   text: |
+         Mypy 0.660 was released.  Read the
+         <a href="https://mypy-lang.blogspot.com/2019/01/mypy-0660-released.html">blog post</a>
+         for more details.
+   author: Michael J. Sullivan
  - title: Mypy 0.650 released
    date: 7 December 2018
    text: |
@@ -67,8 +74,8 @@ items:
  - title: Mypy 0.520 released
    date: 10 July 2017
    text: |
-         Mypy 0.520 was released. It adds better control for Any types, __setattr__ support, 
-         more flexible NamedTuples, and many more improvements and bug fixes. 
+         Mypy 0.520 was released. It adds better control for Any types, __setattr__ support,
+         more flexible NamedTuples, and many more improvements and bug fixes.
          Read the
          <a href="http://mypy-lang.blogspot.co.uk/2017/07/mypy-0520-released.html">blog post</a>
          to see what's changed.
