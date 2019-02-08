@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 0.670 released
+   date: 16 January 2019
+   text: |
+         Mypy 0.670 was released.  Read the
+         <a href="https://mypy-lang.blogspot.com/2019/02/mypy-0670-released.html">blog post</a>
+         for more details.
+   author: Guido van Rossum
  - title: Mypy 0.660 released
    date: 16 January 2019
    text: |
