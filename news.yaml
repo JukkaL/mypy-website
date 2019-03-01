@@ -1,4 +1,10 @@
 items:
+ - title: Blog post on extending mypy with plugins
+   date: 1 March 2019
+   text: |
+         Read a <a href="http://mypy-lang.blogspot.com/2019/03/extending-mypy-with-plugins.html">blog post</a>
+         about extending mypy with plugins and distributing the plugins together with PEP 561 packages.
+   author: Ivan Levkivskyi
  - title: Mypy 0.670 released
    date: 16 January 2019
    text: |
