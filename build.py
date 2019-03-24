@@ -145,7 +145,7 @@ def main():
         shutil.copy(f, out_dir + '/')
     for d in static_dirs:
         dn = out_dir + '/' + d
-        shutil.rmtree(dn)
+        shutil.rmtree(dn, ignore_errors=True)
         shutil.copytree(d, dn)
 
 
