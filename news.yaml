@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 0.700 released
+   date: 3 April 2019
+   text: |
+         Mypy 0.700 was released.  It's up to 4x faster than previous releases!  Read the
+         <a href="https://mypy-lang.blogspot.com/2019/04/mypy-0700-released-up-to-4x-faster.html">blog post</a>
+         for more details.
+   author: Jukka Lehtosalo
  - title: Blog post on extending mypy with plugins
    date: 1 March 2019
    text: |
@@ -6,7 +13,7 @@ items:
          about extending mypy with plugins and distributing the plugins together with PEP 561 packages.
    author: Ivan Levkivskyi
  - title: Mypy 0.670 released
-   date: 16 January 2019
+   date: 8 February 2019
    text: |
          Mypy 0.670 was released.  Read the
          <a href="https://mypy-lang.blogspot.com/2019/02/mypy-0670-released.html">blog post</a>
