@@ -2,6 +2,7 @@
 
 Dependencies:
 
+* Python 2
 * `pyyaml` (`pip install pyyaml`)
 * `sass` (`sudo gem install sass`)
 
