@@ -5,7 +5,7 @@ items:
          Mypy 0.701 was released.  This fixes a few bugs and regressions in 0.700.  Read the
          <a href="https://mypy-lang.blogspot.com/2019/04/mypy-0701-released.html">blog post</a>
          for more details.
-   author: Jukka Lehtosalo
+   author: Michael J. Sullivan
  - title: Mypy 0.700 released
    date: 3 April 2019
    text: |
