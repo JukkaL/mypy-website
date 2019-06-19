@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.710 released
+   date: 19 June 2019
+   text: |
+         Mypy 0.710 was released.  This release features a new,
+         experimental semantic analyzer and inline configuration options.
+         Read the
+         <a href="https://mypy-lang.blogspot.com/2019/06/mypy-0710-released-new-semantic-analyzer.html">blog post</a>
+         for more details.
+   author: Guido van Rossum
  - title: Mypy 0.701 released
    date: 16 April 2019
    text: |
