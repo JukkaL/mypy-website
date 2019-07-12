@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.720 released
+   date: 12 July 2019
+   text: |
+         Mypy 0.720 was released.  This release uses the new semantic analyzer by default,
+         adds a flag to warn about unreachable code, and has other improvements and bug fixes.
+         Read the
+         <a href="http://mypy-lang.blogspot.com/2019/07/mypy-0720-released.html">blog post</a>
+         for more details.
+   author: Ivan Levkivskyi
  - title: Mypy 0.710 released
    date: 19 June 2019
    text: |
