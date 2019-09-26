@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.730 released
+   date: 26 September 2019
+   text: |
+         Mypy 0.730 was released.  This release adds colored and pretty output modes, and
+         it includes support for error codes. Read the
+         <a href="http://mypy-lang.blogspot.com/2019/09/mypy-730-released.html">blog post</a>
+         for more details.
+   author: Jukka Lehtosalo
  - title: Mypy 0.720 released
    date: 12 July 2019
    text: |
