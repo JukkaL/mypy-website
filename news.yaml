@@ -3,7 +3,7 @@ items:
    date: 16 October 2019
    text: |
          Mypy 0.740 was released.  This release type checking for str.format and improved checking of untyped functions. Read the
-         <a href="http://mypy-lang.blogspot.com/2019/10/mypy-740-released.html">blog post</a>
+         <a href="http://mypy-lang.blogspot.com/2019/10/mypy-0740-released.html">blog post</a>
          for more details.
    author: Michael J. Sullivan
  - title: Mypy 0.730 released
