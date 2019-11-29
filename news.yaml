@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.750 released
+   date: 29 November 2019
+   text: |
+         Mypy 0.750 was released.  This release has better support for self-types, improved stub generator,
+         experimental static inference of annotations, and other improvements and bug fixes.
+         Read the <a href="https://mypy-lang.blogspot.com/2019/11/mypy-0.html">blog post</a>
+         for more details.
+   author: Ivan Levkivskyi
  - title: Mypy 0.740 released
    date: 16 October 2019
    text: |
