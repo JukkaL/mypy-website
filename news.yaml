@@ -8,7 +8,6 @@ items:
          <a href="https://mypy-lang.blogspot.com/2019/12/mypy-0760-released.html">blog post</a>
          for the details.
    author: Jukka Lehtosalo
-items:
  - title: Mypy 0.750 released
    date: 29 November 2019
    text: |
