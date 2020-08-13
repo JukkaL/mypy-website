@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.780 released
+   date: 3 June 2020
+   text: |
+         Mypy 0.780 was released.
+         Read the
+         <a href="https://mypy-lang.blogspot.com/2020/06/mypy-0780-released.html">blog post</a>
+         for the details.
+   author: Ivan Levkivskyi
  - title: Mypy 0.770 released
    date: 10 March 2020
    text: |
@@ -7,7 +15,6 @@ items:
          <a href="https://mypy-lang.blogspot.com/2020/03/mypy-0770-released.html">blog post</a>
          for the details.
    author: Michael J. Sullivan
-items:
  - title: Mypy 0.760 released
    date: 17 December 2019
    text: |
