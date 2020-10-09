@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.790 released
+   date: 9 October 2020
+   text: |
+         Mypy 0.790 was released.
+         Read the
+         <a href="https://mypy-lang.blogspot.com/2020/10/mypy-0790-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
  - title: Mypy 0.780 released
    date: 3 June 2020
    text: |
