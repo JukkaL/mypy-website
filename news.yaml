@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 0.800 released
+   date: 22 January 2021
+   text: |
+         Mypy 0.800 was released. This release adds Python 3.9 support, typing usability improvements
+         (PEP 585 and PEP 604), and other features and bug fixes. Read the
+         <a href="https://mypy-lang.blogspot.com/2021/01/mypy-0800-released.html">blog post</a>
+         for the details.
+   author: Ivan Levkivskyi
  - title: Mypy 0.790 released
    date: 9 October 2020
    text: |
