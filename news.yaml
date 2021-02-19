@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.812 released
+   date: 19 February 2021
+   text: |
+         Mypy 0.812 was released. This release fixes a regression in module finding behavior
+         and adds the --exclude flag for excluding certain paths when searching for
+         modules. Read the
+         <a href="http://mypy-lang.blogspot.com/2021/02/mypy-0812-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
  - title: Mypy 0.800 released
    date: 22 January 2021
    text: |
