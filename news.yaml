@@ -1,4 +1,11 @@
 items:
+ - title: The upcoming switch to modular typeshed in mypy 0.900
+   date: 26 May 2021
+   text: |
+         The next mypy release will no longer bundle stubs for third-party libraries.
+         Read this <a href="https://mypy-lang.blogspot.com/2021/05/the-upcoming-switch-to-modular-typeshed.html">blog post</a> if you are interested in what this means to mypy users and why
+         we are doing this.
+   author: Jukka Lehtosalo
  - title: Mypy 0.812 released
    date: 19 February 2021
    text: |
