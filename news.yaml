@@ -1,4 +1,16 @@
 items:
+ - title: Mypy 0.901 released
+   date: 8 Jun 2021
+   text: |
+         Mypy 0.901 was released. This release moves third-party
+         library stubs to stub packages, allowing newer stubs to be
+         easily used without updating mypy.  Mypy now supports
+         pyproject.toml and type guards, and ships wheels for Apple
+         Silicon. Plus, there are many other features and bug
+         fixes. Read the <a
+         href="http://mypy-lang.blogspot.com/2021/06/mypy-0900-released.html>blog
+         post</a> for the details.
+   author: Jukka Lehtosalo
  - title: The upcoming switch to modular typeshed in mypy 0.900
    date: 26 May 2021
    text: |
