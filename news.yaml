@@ -1,4 +1,13 @@
 items:
+ - title: Mypy 0.910 released
+   date: 22 Jun 2021
+   text: |
+         Mypy 0.910 was released. This release includes the --non-interactive command-line
+         option to install stubs without user interaction, plus other fixes and improvements.
+         Python 3.5 is now deprecated. Read the
+         <a href="https://mypy-lang.blogspot.com/2021/06/mypy-0910-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
  - title: Mypy 0.901 released
    date: 8 Jun 2021
    text: |
