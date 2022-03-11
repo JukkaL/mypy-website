@@ -1,4 +1,25 @@
 items:
+ - title: Mypy 0.940 released
+   date: 11 Mar 2022
+   text: |
+         Mypy 0.940 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2022/03/mypy-0940-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
+ - title: Mypy 0.930 released
+   date: 22 Dec 2021
+   text: |
+         Mypy 0.930 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2021/12/mypy-0930-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
+ - title: Mypy 0.920 released
+   date: 15 Dec 2021
+   text: |
+         Mypy 0.920 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2021/12/mypy-0920-released.html">blog post</a>
+         for the details.
+   author: Ivan Levkivskyi
  - title: Mypy 0.910 released
    date: 22 Jun 2021
    text: |
