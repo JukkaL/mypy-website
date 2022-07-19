@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 0.971 released
+   date: 19 Jul 2022
+   text: |
+         Mypy 0.971 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2022/07/mypy-0971-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo and Ivan Levkivskyi
  - title: Mypy 0.960 released
    date: 25 May 2022
    text: |
