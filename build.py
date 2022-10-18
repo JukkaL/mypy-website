@@ -1,7 +1,5 @@
 """Build mypy website (html and css).
 
-Use Python 2 to run this.
-
 Needs sass. Use "sudo gem install sass" to install.
 
 NOTES:
