@@ -2,9 +2,9 @@
 
 Dependencies:
 
-* Python 2
+* Python 3
 * `pyyaml` (`pip install pyyaml`)
-* `sass` (`sudo gem install sass`)
+* `libsass-python` (`pip install libsass`)
 
 To build locally:
 ```

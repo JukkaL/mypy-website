@@ -1,8 +1,6 @@
 """Build mypy website (html and css).
 
-Use Python 2 to run this.
-
-Needs sass. Use "sudo gem install sass" to install.
+Needs libsass (pip install libsass).
 
 NOTES:
 
@@ -139,7 +137,7 @@ def main():
     for p in pages:
         build_page(p)
 
-    subprocess.check_call(['sass', 'site.scss:site.css'])
+    subprocess.check_call(['pysassc', 'site.scss', 'site.css'])
 
     for f in files:
         shutil.copy(f, out_dir + '/')
