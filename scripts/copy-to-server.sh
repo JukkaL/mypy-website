@@ -12,7 +12,7 @@ fi
 echo "=== Copying web site to mypy-lang.org..."
 cd out
 ssh mypy-lang.org "mkdir -p web/static"
-scp -r *.html *.css static mypy-lang.org:web/
+scp -r *.html *.css static favicon.ico mypy-lang.org:web/
 ssh mypy-lang.org "sudo cp -r web/* /srv/www-mypy/"
 
 echo "=== Done"

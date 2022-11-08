@@ -27,7 +27,7 @@ pages = ['index', 'examples', 'tutorial', 'about', 'news', 'faq', 'contact',
 
          'overview'  # legacy
          ]
-files = ['site.css']
+files = ['site.css', 'favicon.ico']
 static_dirs = ['static']
 
 out_dir = 'out'
