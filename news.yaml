@@ -1,8 +1,8 @@
 items:
- - title: Mypy 0.990 released
+ - title: Mypy 0.991 released
    date: 8 Nov 2022
    text: |
-         Mypy 0.990 was released. Read the
+         Mypy 0.991 was released. Read the
          <a href="https://mypy-lang.blogspot.com/2022/11/mypy-0990-released.html">blog post</a>
          for the details.
    author: Valentin Stanciu
