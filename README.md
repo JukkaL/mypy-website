@@ -1,18 +1,18 @@
 # mypy-website
 
-Dependencies:
+## Dependencies:
 
-* Python 3
-* `pyyaml` (`pip install pyyaml`)
-* `libsass-python` (`pip install libsass`)
+```
+python3 -m pip install -r requirements.txt
+```
 
-To build locally:
+## To build locally:
 ```
 python build.py
 ```
 Output is in `out`.
 
-To build and update the website:
+## To build and update the website:
 ```
 scripts/copy-to-server.sh
 ```
