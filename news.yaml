@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 1.1.1 released
+   date: 6 Mar 2023
+   text: |
+         Mypy 1.1.1 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2023/03/mypy-111-released.html">blog post</a>
+         for the details.
+   author: Max Murin
  - title: Mypy 1.0 released
    date: 6 Feb 2023
    text: |
