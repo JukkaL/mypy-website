@@ -5,6 +5,7 @@ items:
          Mypy 1.3 was released. Read the
          <a href="https://mypy-lang.blogspot.com/2023/05/mypy-13-released.html">blog post</a>
          for the details.
+   author: Wesley Collin Wright
  - title: Mypy 1.2 released
    date: 6 Apr 2023
    text: |
