@@ -6,9 +6,13 @@
 python3 -m pip install -r requirements.txt
 ```
 
+## To update news items
+
+Edit `news.yaml` and add an entry to the new news item at the top.
+
 ## To build locally:
 ```
-python build.py
+python3 build.py
 ```
 Output is in `out`.
 

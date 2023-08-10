@@ -2,7 +2,7 @@
 set -eu
 
 echo "=== Building web site..."
-python build.py
+python3 build.py
 
 if [ ! -f out/index.html ]; then
     echo "Error: The out/ directory does not seem to contain generated files!"
