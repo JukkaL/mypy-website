@@ -1,4 +1,25 @@
 items:
+ - title: Mypy 1.8 released
+   date: 21 Dec 2023
+   text: |
+         Mypy 1.8 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2023/12/mypy-18-released.html">blog post</a>
+         for the details.
+   author: Wesley Collin Wright
+ - title: Mypy 1.7 released
+   date: 10 Nov 2023
+   text: |
+         Mypy 1.7 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2023/11/mypy-17-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
+ - title: Mypy 1.6 released
+   date: 10 Oct 2023
+   text: |
+         Mypy 1.6 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2023/10/mypy-16-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
  - title: Mypy 1.5 released
    date: 10 Aug 2023
    text: |
