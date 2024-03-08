@@ -1,4 +1,12 @@
 items:
+ - title: Mypy 1.9 released
+   date: 08 Mar 2024
+   text: |
+         Mypy 1.9 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2024/03/mypy-19-released.html">blog post</a>
+         for the details.
+   author: Jared Hance
+items:
  - title: Mypy 1.8 released
    date: 21 Dec 2023
    text: |
