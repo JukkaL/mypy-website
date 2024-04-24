@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 1.10 released
+   date: 24 Apr 2024
+   text: |
+         Mypy 1.10 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2024/04/mypy-110-released.html">blog post</a>
+         for the details.
+   author: Valentin Stanciu
  - title: Mypy 1.9 released
    date: 08 Mar 2024
    text: |
