@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 1.14 released
+   date: 20 Dec 2024
+   text: |
+         Mypy 1.14 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2024/12/mypy-114-released.html">blog post</a>
+         for the details.
+   author: Valentin Stanciu
  - title: Mypy 1.13 released
    date: 22 Oct 2024
    text: |
