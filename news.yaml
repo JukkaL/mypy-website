@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 1.15 released
+   date: 5 Feb 2025
+   text: |
+         Mypy 1.15 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2025/02/mypy-115-released.html">blog post</a>
+         for the details.
+   author: Wesley Collin Wright
  - title: Mypy 1.14 released
    date: 20 Dec 2024
    text: |
