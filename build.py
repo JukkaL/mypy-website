@@ -23,7 +23,7 @@ except ImportError:
 news_items = load(open('news.yaml'), Loader=Loader)['items']
 
 pages = ['index', 'examples', 'tutorial', 'about', 'news', 'faq', 'contact',
-         'roadmap', 'news',
+         'news',
 
          'overview'  # legacy
          ]
