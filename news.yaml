@@ -5,7 +5,7 @@ items:
          Mypy 1.17 was released. Read the
          <a href="https://mypy-lang.blogspot.com/2025/07/mypy-117-released.html">blog post</a>
          for the details.
-   author: Jukka Lehtosalo
+   author: Ethan Sarp
  - title: Mypy 1.16 released
    date: 29 May 2025
    text: |
