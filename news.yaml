@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 1.18.1 released
+   date: 11 Sept 2025
+   text: |
+         Mypy 1.18.1 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2025/09/mypy-1181-released.html">blog post</a>
+         for the details.
+   author: Kevin Kannammalil
  - title: Mypy 1.17 released
    date: 14 Jul 2025
    text: |
