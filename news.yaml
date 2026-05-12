@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 2.1 released
+   date: 11 May 2026
+   text: |
+         Mypy 2.1 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2026/05/mypy-21-released.html">blog post</a>
+         for the details.
+   author: Jukka Lehtosalo
  - title: Mypy 2.0 released
    date: 6 May 2026
    text: |
