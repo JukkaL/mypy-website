@@ -1,4 +1,11 @@
 items:
+ - title: Mypy 2.2 released
+   date: 7 Jul 2026
+   text: |
+         Mypy 2.2 was released. Read the
+         <a href="https://mypy-lang.blogspot.com/2026/07/mypy-22-released.html">blog post</a>
+         for the details.
+   author: Ethan Sarp
  - title: Mypy 2.1 released
    date: 11 May 2026
    text: |
